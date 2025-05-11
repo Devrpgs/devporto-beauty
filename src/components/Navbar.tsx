@@ -25,7 +25,7 @@ const Navbar = () => {
         "fixed w-full z-50 transition-all duration-300",
         isScrolled 
           ? "bg-white shadow-md py-2" 
-          : "bg-transparent py-4"
+          : "bg-black/40 backdrop-blur-sm py-4"
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,7 +33,10 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
-              <span className="text-2xl font-playfair font-bold text-salon-dark">
+              <span className={cn(
+                "text-2xl font-playfair font-bold",
+                isScrolled ? "text-salon-dark" : "text-white"
+              )}>
                 DevPorto<span className="text-salon">Beauty</span>
               </span>
             </a>
@@ -42,12 +45,30 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
-              <a href="#home" className="text-salon-dark hover:text-salon transition-colors">Home</a>
-              <a href="#services" className="text-salon-dark hover:text-salon transition-colors">Serviços</a>
-              <a href="#team" className="text-salon-dark hover:text-salon transition-colors">Equipe</a>
-              <a href="#gallery" className="text-salon-dark hover:text-salon transition-colors">Galeria</a>
-              <a href="#testimonials" className="text-salon-dark hover:text-salon transition-colors">Depoimentos</a>
-              <a href="#contact" className="text-salon-dark hover:text-salon transition-colors">Contato</a>
+              <a href="#home" className={cn(
+                "hover:text-salon transition-colors font-medium",
+                isScrolled ? "text-salon-dark" : "text-white"
+              )}>Home</a>
+              <a href="#services" className={cn(
+                "hover:text-salon transition-colors font-medium",
+                isScrolled ? "text-salon-dark" : "text-white"
+              )}>Serviços</a>
+              <a href="#team" className={cn(
+                "hover:text-salon transition-colors font-medium",
+                isScrolled ? "text-salon-dark" : "text-white"
+              )}>Equipe</a>
+              <a href="#gallery" className={cn(
+                "hover:text-salon transition-colors font-medium",
+                isScrolled ? "text-salon-dark" : "text-white"
+              )}>Galeria</a>
+              <a href="#testimonials" className={cn(
+                "hover:text-salon transition-colors font-medium",
+                isScrolled ? "text-salon-dark" : "text-white"
+              )}>Depoimentos</a>
+              <a href="#contact" className={cn(
+                "hover:text-salon transition-colors font-medium",
+                isScrolled ? "text-salon-dark" : "text-white"
+              )}>Contato</a>
               <a href="#booking" className="btn-primary">Agende Agora</a>
             </div>
           </div>
@@ -56,7 +77,10 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-salon-dark hover:text-salon focus:outline-none"
+              className={cn(
+                "inline-flex items-center justify-center p-2 rounded-md hover:text-salon focus:outline-none",
+                isScrolled ? "text-salon-dark" : "text-white"
+              )}
             >
               <span className="sr-only">Open main menu</span>
               <svg
