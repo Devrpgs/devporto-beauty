@@ -11,13 +11,13 @@ const Hero = () => {
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 fade-in" style={{ animationDelay: '0.2s' }}>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 opacity-100 animate-fade-in" style={{ animationDelay: '0.2s' }}>
           DevPorto Beauty
         </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto fade-in" style={{ animationDelay: '0.4s' }}>
+        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto opacity-100 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           Transformamos sua beleza exterior, elevamos sua confiança interior
         </p>
-        <div className="fade-in" style={{ animationDelay: '0.6s' }}>
+        <div className="opacity-100 animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <a 
             href="#booking" 
             className="btn-primary text-lg md:text-xl py-3 px-8 shadow-lg hover:shadow-xl"
