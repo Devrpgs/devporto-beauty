@@ -1,73 +1,147 @@
-# Welcome to your Lovable project
 
-## Project info
+# DevPorto Beauty Salon
 
-**URL**: https://lovable.dev/projects/b3dad143-eb71-40cf-a518-ca52d70cbcd1
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.0-38B2AC.svg)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0+-007ACC.svg)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.0.0+-646CFF.svg)](https://vitejs.dev/)
 
-## How can I edit this code?
+A modern, responsive website for a premium beauty salon, featuring online booking, service showcases, team profiles, and more.
 
-There are several ways of editing your application.
+![DevPorto Beauty Salon Screenshot](https://images.unsplash.com/photo-1487412947147-5cdc1cdc5564?auto=format&fit=crop&w=1200&q=80)
 
-**Use Lovable**
+## 🌟 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b3dad143-eb71-40cf-a518-ca52d70cbcd1) and start prompting.
+- **Modern, Responsive Design** - Looks great on all devices
+- **Online Booking System** - Clients can book appointments in just 3 clicks
+- **Service Showcase** - Categorized display of all salon services with prices
+- **Team Profiles** - Showcase your talented staff with certifications
+- **Gallery** - Filterable gallery of work samples
+- **Client Testimonials** - Build trust with real client reviews
+- **Contact Information** - Easy to find with integrated map
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📋 Table of Contents
 
-**Use your preferred IDE**
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Demo
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+[Live Demo](https://lovable.dev/projects/b3dad143-eb71-40cf-a518-ca52d70cbcd1)
 
-Follow these steps:
+## 💻 Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+To run this project locally, follow these steps:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone the repository
+git clone <your-repo-url>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Navigate into the project directory
+cd devporto-beauty
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🔍 Usage
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+After starting the development server, open your browser and navigate to `http://localhost:8080` to view the website.
 
-**Use GitHub Codespaces**
+### Key Sections:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Home/Hero** - Captivating entry point with a clear call-to-action
+2. **Booking** - Simple, intuitive booking interface
+3. **Services** - Categorized services with pricing and duration
+4. **Team** - Staff profiles with expertise and certifications
+5. **Gallery** - Filterable portfolio of work
+6. **Testimonials** - Client reviews with ratings
+7. **Contact** - Contact form, location map, and business hours
 
-## What technologies are used for this project?
+## 📁 Project Structure
 
-This project is built with:
+```
+src/
+├── components/       # Reusable UI components
+│   ├── ui/           # shadcn/ui components
+│   ├── Hero.tsx      # Landing hero section
+│   ├── Services.tsx  # Services section
+│   └── ...           # Other component files
+├── pages/            # Page components
+│   └── Index.tsx     # Main page layout
+├── lib/              # Utility functions
+├── hooks/            # Custom React hooks
+├── App.tsx           # Root component
+└── main.tsx          # Entry point
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🛠️ Technologies
 
-## How can I deploy this project?
+| Category          | Technologies                                         |
+|-------------------|-----------------------------------------------------|
+| **Frontend**      | React, TypeScript, Tailwind CSS                     |
+| **UI Components** | shadcn/ui                                           |
+| **Build Tool**    | Vite                                                |
+| **Icons**         | Lucide React                                        |
+| **Animations**    | Tailwind CSS animations                             |
+| **Typography**    | Playfair Display, Lato (Google Fonts)               |
 
-Simply open [Lovable](https://lovable.dev/projects/b3dad143-eb71-40cf-a518-ca52d70cbcd1) and click on Share -> Publish.
+## 🎨 Design Elements
 
-## Can I connect a custom domain to my Lovable project?
+### Color Palette
 
-Yes, you can!
+- Primary (Gold): `#C9A77C`
+- Light Cream: `#F4F1EC`
+- Dark Gray: `#232323`
+- Muted Taupe: `#8A8582`
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Typography
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Headings: Playfair Display (serif)
+- Body: Lato (sans-serif)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📬 Contact
+
+Project Link: [https://github.com/yourusername/devporto-beauty](https://github.com/yourusername/devporto-beauty)
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80)
+
+### Services Section
+![Services Section](https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80)
+
+### Team Profiles
+![Team Profiles](https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=800&q=80)
+
+### Gallery
+![Gallery](https://images.unsplash.com/photo-1487412947147-5cdc1cdc5564?auto=format&fit=crop&w=800&q=80)
+
+---
+
+Made with ❤️ by [Your Name]
