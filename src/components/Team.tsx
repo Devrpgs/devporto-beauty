@@ -8,7 +8,7 @@ const team = [
     name: 'Ana Silva',
     role: 'Cabelereira Sênior',
     bio: 'Especialista em cortes modernos e colorações. Com mais de 10 anos de experiência em salões renomados.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
     certifications: ['Certificação L\'Oréal', 'Especialista em Visagismo']
   },
   {
@@ -16,7 +16,7 @@ const team = [
     name: 'Carlos Oliveira',
     role: 'Colorista Master',
     bio: 'Especialista em técnicas avançadas de coloração e mechas. Formado pela Academia Wella com experiência internacional.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
     certifications: ['Certificação Wella', 'Especialista em Colorimetria']
   },
   {
@@ -24,7 +24,7 @@ const team = [
     name: 'Juliana Mendes',
     role: 'Manicure e Pedicure',
     bio: 'Especialista em nail art e técnicas de alongamento. Atualizada com as últimas tendências do mercado.',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
     certifications: ['Especialista em Nail Design', 'Técnica em Unhas em Gel']
   },
   {
@@ -32,7 +32,7 @@ const team = [
     name: 'Roberto Santos',
     role: 'Esteticista',
     bio: 'Especializado em tratamentos faciais e corporais. Formado em Estética Avançada com foco em rejuvenescimento.',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
     certifications: ['Especialista em Limpeza de Pele', 'Certificação em Terapias Faciais']
   },
 ];

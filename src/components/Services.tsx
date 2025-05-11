@@ -7,27 +7,27 @@ const serviceCategories = [
     id: 'hair',
     name: 'Cabelo',
     services: [
-      { id: 'cut', name: 'Corte', price: 'A partir de R$ 80', duration: '45 min', image: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-      { id: 'color', name: 'Coloração', price: 'A partir de R$ 150', duration: '2h', image: 'https://images.unsplash.com/photo-1589710751893-f9ab392bcba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-      { id: 'hydration', name: 'Hidratação', price: 'A partir de R$ 90', duration: '1h', image: 'https://images.unsplash.com/photo-1580618864652-f2afbb20a39f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
+      { id: 'cut', name: 'Corte', price: 'A partir de R$ 80', duration: '45 min', image: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
+      { id: 'color', name: 'Coloração', price: 'A partir de R$ 150', duration: '2h', image: 'https://images.unsplash.com/photo-1589710751893-f9ab392bcba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
+      { id: 'hydration', name: 'Hidratação', price: 'A partir de R$ 90', duration: '1h', image: 'https://images.unsplash.com/photo-1580618864652-f2afbb20a39f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
     ]
   },
   {
     id: 'nails',
     name: 'Unhas',
     services: [
-      { id: 'manicure', name: 'Manicure', price: 'A partir de R$ 60', duration: '40 min', image: 'https://images.unsplash.com/photo-1595621864553-1f61e2f9d858?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-      { id: 'pedicure', name: 'Pedicure', price: 'A partir de R$ 70', duration: '50 min', image: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-      { id: 'gel', name: 'Unhas em Gel', price: 'A partir de R$ 120', duration: '1h 30min', image: 'https://images.unsplash.com/photo-1604654894611-6973b376cbde?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
+      { id: 'manicure', name: 'Manicure', price: 'A partir de R$ 60', duration: '40 min', image: 'https://images.unsplash.com/photo-1595621864553-1f61e2f9d858?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
+      { id: 'pedicure', name: 'Pedicure', price: 'A partir de R$ 70', duration: '50 min', image: 'https://images.unsplash.com/photo-1632345031435-8727f6897d53?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
+      { id: 'gel', name: 'Unhas em Gel', price: 'A partir de R$ 120', duration: '1h 30min', image: 'https://images.unsplash.com/photo-1604654894611-6973b376cbde?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
     ]
   },
   {
     id: 'aesthetics',
     name: 'Estética',
     services: [
-      { id: 'facial', name: 'Limpeza de Pele', price: 'A partir de R$ 100', duration: '1h', image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-      { id: 'eyebrows', name: 'Design de Sobrancelhas', price: 'A partir de R$ 50', duration: '30 min', image: 'https://images.unsplash.com/photo-1535637603896-07c179d71103?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-      { id: 'massage', name: 'Massagem Relaxante', price: 'A partir de R$ 130', duration: '1h', image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
+      { id: 'facial', name: 'Limpeza de Pele', price: 'A partir de R$ 100', duration: '1h', image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
+      { id: 'eyebrows', name: 'Design de Sobrancelhas', price: 'A partir de R$ 50', duration: '30 min', image: 'https://images.unsplash.com/photo-1535637603896-07c179d71103?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
+      { id: 'massage', name: 'Massagem Relaxante', price: 'A partir de R$ 130', duration: '1h', image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' },
     ]
   },
 ];
