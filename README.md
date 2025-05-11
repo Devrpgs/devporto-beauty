@@ -1,5 +1,4 @@
-
-# DevPorto Beauty Salon
+# DevPorto Beauty - Salão de Beleza
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
@@ -7,141 +6,141 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0+-007ACC.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.0.0+-646CFF.svg)](https://vitejs.dev/)
 
-A modern, responsive website for a premium beauty salon, featuring online booking, service showcases, team profiles, and more.
+Um site moderno e responsivo para um salão de beleza premium, com agendamento online, apresentação de serviços, perfis de equipe e muito mais.
 
 ![DevPorto Beauty Salon Screenshot](https://images.unsplash.com/photo-1487412947147-5cdc1cdc5564?auto=format&fit=crop&w=1200&q=80)
 
-## 🌟 Features
+## 🌟 Funcionalidades
 
-- **Modern, Responsive Design** - Looks great on all devices
-- **Online Booking System** - Clients can book appointments in just 3 clicks
-- **Service Showcase** - Categorized display of all salon services with prices
-- **Team Profiles** - Showcase your talented staff with certifications
-- **Gallery** - Filterable gallery of work samples
-- **Client Testimonials** - Build trust with real client reviews
-- **Contact Information** - Easy to find with integrated map
+- **Design Moderno e Responsivo** - Ótima aparência em todos os dispositivos
+- **Sistema de Agendamento Online** - Clientes podem agendar horários em apenas 3 cliques
+- **Apresentação de Serviços** - Exibição categorizada de todos os serviços do salão com preços
+- **Perfis da Equipe** - Apresente sua talentosa equipe com certificações
+- **Galeria** - Galeria filtrável de amostras de trabalhos
+- **Depoimentos de Clientes** - Construa confiança com avaliações reais de clientes
+- **Informações de Contato** - Fácil de encontrar com mapa integrado
 
-## 📋 Table of Contents
+## 📋 Índice
 
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Demonstração](#demonstração)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Tecnologias](#tecnologias)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
+- [Contato](#contato)
 
-## 🚀 Demo
+## 🚀 Demonstração
 
-[Live Demo](https://lovable.dev/projects/b3dad143-eb71-40cf-a518-ca52d70cbcd1)
+[Demonstração ao Vivo](https://lovable.dev/projects/b3dad143-eb71-40cf-a518-ca52d70cbcd1)
 
-## 💻 Installation
+## 💻 Instalação
 
-To run this project locally, follow these steps:
+Para executar este projeto localmente, siga estes passos:
 
 ```bash
-# Clone the repository
-git clone <your-repo-url>
+# Clone o repositório
+git clone <url-do-seu-repositorio>
 
-# Navigate into the project directory
+# Navegue para o diretório do projeto
 cd devporto-beauty
 
-# Install dependencies
+# Instale as dependências
 npm install
 
-# Start the development server
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-## 🔍 Usage
+## 🔍 Uso
 
-After starting the development server, open your browser and navigate to `http://localhost:8080` to view the website.
+Após iniciar o servidor de desenvolvimento, abra seu navegador e navegue para `http://localhost:8080` para visualizar o site.
 
-### Key Sections:
+### Seções Principais:
 
-1. **Home/Hero** - Captivating entry point with a clear call-to-action
-2. **Booking** - Simple, intuitive booking interface
-3. **Services** - Categorized services with pricing and duration
-4. **Team** - Staff profiles with expertise and certifications
-5. **Gallery** - Filterable portfolio of work
-6. **Testimonials** - Client reviews with ratings
-7. **Contact** - Contact form, location map, and business hours
+1. **Início/Hero** - Ponto de entrada cativante com uma chamada para ação clara
+2. **Agendamento** - Interface de agendamento simples e intuitiva
+3. **Serviços** - Serviços categorizados com preços e duração
+4. **Equipe** - Perfis dos funcionários com especialidades e certificações
+5. **Galeria** - Portfólio de trabalhos filtrável
+6. **Depoimentos** - Avaliações de clientes com classificações
+7. **Contato** - Formulário de contato, mapa de localização e horário de funcionamento
 
-## 📁 Project Structure
+## 📁 Estrutura do Projeto
 
 ```
 src/
-├── components/       # Reusable UI components
-│   ├── ui/           # shadcn/ui components
-│   ├── Hero.tsx      # Landing hero section
-│   ├── Services.tsx  # Services section
-│   └── ...           # Other component files
-├── pages/            # Page components
-│   └── Index.tsx     # Main page layout
-├── lib/              # Utility functions
-├── hooks/            # Custom React hooks
-├── App.tsx           # Root component
-└── main.tsx          # Entry point
+├── components/       # Componentes de UI reutilizáveis
+│   ├── ui/           # Componentes shadcn/ui
+│   ├── Hero.tsx      # Seção hero da landing page
+│   ├── Services.tsx  # Seção de serviços
+│   └── ...           # Outros arquivos de componentes
+├── pages/            # Componentes de página
+│   └── Index.tsx     # Layout principal da página
+├── lib/              # Funções utilitárias
+├── hooks/            # Hooks React personalizados
+├── App.tsx           # Componente raiz
+└── main.tsx          # Ponto de entrada
 ```
 
-## 🛠️ Technologies
+## 🛠️ Tecnologias
 
-| Category          | Technologies                                         |
+| Categoria         | Tecnologias                                        |
 |-------------------|-----------------------------------------------------|
 | **Frontend**      | React, TypeScript, Tailwind CSS                     |
-| **UI Components** | shadcn/ui                                           |
-| **Build Tool**    | Vite                                                |
-| **Icons**         | Lucide React                                        |
-| **Animations**    | Tailwind CSS animations                             |
-| **Typography**    | Playfair Display, Lato (Google Fonts)               |
+| **Componentes UI**| shadcn/ui                                           |
+| **Ferramenta de Build** | Vite                                                |
+| **Ícones**        | Lucide React                                        |
+| **Animações**     | Animações Tailwind CSS                              |
+| **Tipografia**    | Playfair Display, Lato (Google Fonts)               |
 
-## 🎨 Design Elements
+## 🎨 Elementos de Design
 
-### Color Palette
+### Paleta de Cores
 
-- Primary (Gold): `#C9A77C`
-- Light Cream: `#F4F1EC`
-- Dark Gray: `#232323`
-- Muted Taupe: `#8A8582`
+- Primária (Dourado): `#C9A77C`
+- Creme Claro: `#F4F1EC`
+- Cinza Escuro: `#232323`
+- Taupe Suave: `#8A8582`
 
-### Typography
+### Tipografia
 
-- Headings: Playfair Display (serif)
-- Body: Lato (sans-serif)
+- Títulos: Playfair Display (serifada)
+- Corpo: Lato (sem serifa)
 
-## 🤝 Contributing
+## 🤝 Contribuindo
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Faça um fork do repositório
+2. Crie sua branch de feature (`git checkout -b feature/feature-incrivel`)
+3. Faça commit de suas alterações (`git commit -m 'Adiciona alguma feature incrível'`)
+4. Faça push para a branch (`git push origin feature/feature-incrivel`)
+5. Abra um Pull Request
 
-## 📄 License
+## 📄 Licença
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-## 📬 Contact
+## 📬 Contato
 
-Project Link: [https://github.com/yourusername/devporto-beauty](https://github.com/yourusername/devporto-beauty)
+Link do Projeto: [https://github.com/devrpgs/devporto-beauty](https://github.com/devrpgs/devporto-beauty)
 
-## 📸 Screenshots
+## 📸 Capturas de Tela
 
-### Home Page
-![Home Page](https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80)
+### Página Inicial
+![Página Inicial](/public/screenshots/home.png)
 
-### Services Section
-![Services Section](https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80)
+### Seção de Serviços
+![Seção de Serviços](public/screenshots/servicos.png)
 
-### Team Profiles
-![Team Profiles](https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=800&q=80)
+### Perfis da Equipe
+![Perfis da Equipe](/public/screenshots/equipe.png)
 
-### Gallery
-![Gallery](https://images.unsplash.com/photo-1487412947147-5cdc1cdc5564?auto=format&fit=crop&w=800&q=80)
+### Galeria
+![Galeria](public/screenshots/galeria.png)
 
 ---
 
-Made with ❤️ by [Your Name]
+Feito com ❤️ por DevPorto

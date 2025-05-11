@@ -42,7 +42,7 @@ const galleryItems = [
   },
   {
     id: '5',
-    image: 'https://images.unsplash.com/photo-1560869713-ba8c5c4ce919?auto=format&fit=crop&w=800&q=80',
+    image: 'public/screenshots/noturna.jpg',
     category: 'makeup',
     description: 'Maquiagem para evento noturno',
     professional: 'Roberto Santos'

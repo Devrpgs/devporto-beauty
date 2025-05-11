@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -8,7 +7,7 @@ const serviceCategories = [
     name: 'Cabelo',
     services: [
       { id: 'cut', name: 'Corte', price: 'A partir de R$ 80', duration: '45 min', image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=80' },
-      { id: 'color', name: 'Coloração', price: 'A partir de R$ 150', duration: '2h', image: 'https://images.unsplash.com/photo-1500668381144-4c6b9f6e8b5d?auto=format&fit=crop&w=500&q=80' },
+      { id: 'color', name: 'Coloração', price: 'A partir de R$ 150', duration: '2h', image: 'public/screenshots/cabelo.jpg' },
       { id: 'hydration', name: 'Hidratação', price: 'A partir de R$ 90', duration: '1h', image: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&w=500&q=80' },
     ]
   },
