@@ -9,35 +9,35 @@ const testimonials = [
     id: '1',
     name: 'Maria Silva',
     content: 'O atendimento personalizado e a qualidade dos serviços me conquistaram desde a primeira visita. Agora sou cliente fiel há mais de um ano!',
-    image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
+    image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=256&q=80',
     rating: 5
   },
   {
     id: '2',
     name: 'João Oliveira',
     content: 'Profissionais extremamente capacitados e ambiente muito agradável. As técnicas utilizadas são de ponta e o resultado sempre supera as expectativas.',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
+    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=256&q=80',
     rating: 5
   },
   {
     id: '3',
     name: 'Carolina Mendes',
     content: 'Melhor salão que já frequentei! O sistema de agendamento online é super prático e sempre respeitam meu horário. Recomendo muito o trabalho da Ana!',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=256&q=80',
     rating: 5
   },
   {
     id: '4',
     name: 'Pedro Santana',
     content: 'Minha experiência foi excelente! O Carlos fez um trabalho incrível na coloração do meu cabelo, encontrando o tom perfeito para minha pele.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80',
     rating: 4.5
   },
   {
     id: '5',
     name: 'Luciana Costa',
     content: 'Ambiente super aconchegante e atendimento de primeira! A Juliana é uma artista com as unhas. Saí muito satisfeita e já agendei meu retorno.',
-    image: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
+    image: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&w=256&q=80',
     rating: 5
   },
 ];

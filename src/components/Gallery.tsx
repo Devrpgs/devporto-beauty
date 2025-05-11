@@ -14,63 +14,63 @@ const categories = [
 const galleryItems = [
   {
     id: '1',
-    image: 'https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
     category: 'hair',
     description: 'Corte moderno com franja lateral',
     professional: 'Ana Silva'
   },
   {
     id: '2',
-    image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
     category: 'color',
     description: 'Loiro dourado com mechas',
     professional: 'Carlos Oliveira'
   },
   {
     id: '3',
-    image: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80',
     category: 'hair',
     description: 'Corte bob curto texturizado',
     professional: 'Ana Silva'
   },
   {
     id: '4',
-    image: 'https://images.unsplash.com/photo-1595118931706-44804fac3d63?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=800&q=80',
     category: 'nails',
     description: 'Nail art geométrica em tons pastel',
     professional: 'Juliana Mendes'
   },
   {
     id: '5',
-    image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1560869713-ba8c5c4ce919?auto=format&fit=crop&w=800&q=80',
     category: 'makeup',
     description: 'Maquiagem para evento noturno',
     professional: 'Roberto Santos'
   },
   {
     id: '6',
-    image: 'https://images.unsplash.com/photo-1501644898242-cfea317d7faf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=800&q=80',
     category: 'color',
     description: 'Balayage em tons caramelo',
     professional: 'Carlos Oliveira'
   },
   {
     id: '7',
-    image: 'https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&w=800&q=80',
     category: 'hair',
     description: 'Ondas naturais com volume',
     professional: 'Ana Silva'
   },
   {
     id: '8',
-    image: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1580518380430-2f84c0a7fb85?auto=format&fit=crop&w=800&q=80',
     category: 'makeup',
     description: 'Maquiagem natural para dia',
     professional: 'Roberto Santos'
   },
   {
     id: '9',
-    image: 'https://images.unsplash.com/photo-1631214504347-15b08ab93ee0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1604654894611-6973b376cbde?auto=format&fit=crop&w=800&q=80',
     category: 'nails',
     description: 'Unhas em gel com decoração floral',
     professional: 'Juliana Mendes'
