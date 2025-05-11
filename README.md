@@ -8,7 +8,7 @@
 
 Um site moderno e responsivo para um salão de beleza premium, com agendamento online, apresentação de serviços, perfis de equipe e muito mais.
 
-![DevPorto Beauty Salon Screenshot](https://images.unsplash.com/photo-1487412947147-5cdc1cdc5564?auto=format&fit=crop&w=1200&q=80)
+![DevPorto Beauty Salon Screenshot](/public/screenshots/home.png)
 
 ## 🌟 Funcionalidades
 
