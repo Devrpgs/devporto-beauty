@@ -33,7 +33,7 @@ Um site moderno e responsivo para um salão de beleza premium, com agendamento o
 
 ## 🚀 Demonstração
 
-[Demonstração ao Vivo](https://lovable.dev/projects/b3dad143-eb71-40cf-a518-ca52d70cbcd1)
+[Demonstração ao Vivo](https://devporto-beauty.vercel.app/)
 
 ## 💻 Instalação
 
